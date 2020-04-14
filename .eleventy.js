@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   // Copy `img/` to `_site/img`
   eleventyConfig.addPassthroughCopy('img');
+  eleventyConfig.addPassthroughCopy('favicon.ico');
 
   // Copy `css/fonts/` to `_site/css/fonts`
   // If you use a subdirectory, it’ll copy using the same directory structure.
