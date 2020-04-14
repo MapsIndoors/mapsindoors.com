@@ -1,0 +1,20 @@
+{
+  "name": "mapsindoors_com",
+  "version": "0.0.1",
+  "description": "Marketing site for MapsIndoors on mapsindoors.com",
+  "main": "_site/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mapsindoors"
+  ],
+  "author": "MapsPeople A/S",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@mapsindoors/css": "0.0.3",
+    "@mapsindoors/midt": "^10.2.3",
+    "normalize.css": "^8.0.1"
+  }
+}

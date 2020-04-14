@@ -1,0 +1,21 @@
+.half {
+  width: 50%;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom right, #f4f0e8, #d8e8e0);
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline;
+}
