@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="MapsIndoors is indoor navigation built with Google Maps.">
+    <title>Privacy Policy - MapsIndoors</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    {% set css %}
+    {% include "node_modules/normalize.css/normalize.css" %}
+    {% include "node_modules/@mapsindoors/css/buttons.css" %}
+    {% include "node_modules/@mapsindoors/midt/midt.css" %}
+    {% include "node_modules/@mapsindoors/midt/midt-helpers.css" %}
+    {% include "style.css" %}
+    {% endset %}
+    <style>
+      {{css | cssmin | safe}}
+    </style>
+  </head>
+  <body class="font-family-sans-serif color-green-100 background-green-90">
+    <header class="text-center color-white-base">
+      <section class="container">
+        <h1 class="font-size-xxx-large">
+          <a href="https://mapsindoors.com" class="text-decoration-none  color-white-white">MapsIndoors</a>
+        </h1>
+        <h2 class="font-size-x-large font-weight-medium margin-bottom-x-large">Indoor Navigation built with Google Maps</h2>
+      </section>
+    </header>
+    <main class="background-white-base">
+      <div class="container">
+        <div class="flex">
+
+          <article class="font-leading-x-large font-size-large font-measure-large margin-auto">
+            <h3 class="text-center font-size-xx-large padding-top-large">Privacy Policy</h3>
+            <h4>What’s the deal with our Cookie Consent Notice?</h4>
+            <p>In May 2011, a European Union (EU) Directive was adopted by all EU member countries to protect consumer privacy online. This piece of privacy legislation requires that covered websites:</p>
+            <ul>
+              <li>Let users know if they are using cookies (that’s why you see the pop up when first visiting our website)</li>
+              <li>Explain what data is gathered through the use of cookies and how that data is used (what we are doing on this page), and</li>
+              <li>Gather user consent to the use of cookies (you give your consent by continuing your use of our website, with the knowledge of our use of cookies)</li>
+            </ul>
+            <h4>What do we use the data for?</h4>
+            <p>Cookies are a kind of short term memory for the web. They are stored in your browser and enable our site to ‘remember’ little bits of information between pages or visits.</p>
+            <p>We use the insight to optimize our website. By optimizing, we mean removing things that no one looks at. Putting more focus with text and colours on things we want visitors to give more attention.</p>
+            <p>By use of cookies, we also, in some cases, use retargeting. Meaning that you will see banners on other medias “asking” you to come back to our website.</p>
+            <p>To handle this information we use Google Analytics.</p>
+            <p>Cookies may be disabled through the device or browser settings. The method for disabling cookies may vary by device and browser. Please find further guidance in this respect for the most commonly used browsers below:</p>
+            <ul>
+              <li>
+                <a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11">Internet Explorer (different versions)</a>
+              </li>
+              <li>
+                <a href="https://support.apple.com/kb/PH21411?locale=en_GB&viewlocale=en_US">Safari (Mac and iOS)</a>
+              </li>
+              <li>
+                <a href="https://support.google.com/chrome/answer/95647?hl=en">Google Chrome</a>
+              </li>
+            </ul>
+            <p>If you choose to disable the cookies on the Website, please note that certain cookies may be essential for the basic functions of the Website. Thus, the Website may therefore no longer function properly.</p>
+          </article>
+        </div>
+      </div>
+    </main>
+    <footer class="container flex margin-top-medium">
+      <p class="color-white-base half margin-left-medium margin-top-medium display-inline-block padding-all-medium">Made by <a href="https://mapspeople.com/mapsindoors" class="color-white-base">MapsPeople A/S</a>
+      </p>
+      <section class="half items-center">
+        <ul class="margin-right-medium text-right">
+          <li class="margin-top-medium">
+            <a href="/privacy-policy" class=" color-white-base display-inline-block padding-all-medium">Privacy Policy</a>
+          </li>
+          <li class="margin-left-large">
+            <a href="https://mapsindoors.github.io" class=" color-white-base display-inline-block padding-all-medium">MapsIndoors Documentation</a>
+          </li>
+          <li class="margin-left-large">
+            <a href="https://mapspeople.com/support" class=" color-white-base display-inline-block padding-all-medium">Support</a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </main>
+</body>
+</html>
