@@ -5,8 +5,10 @@
   "main": "_site/index.html",
   "scripts": {
     "build": "eleventy",
-    "watch": "eleventy --serve"
+    "watch": "eleventy --serve",
+    "deploy": "gh-pages -d _site"
   },
+  "homepage": "/",
   "keywords": [
     "mapsindoors"
   ],
@@ -17,6 +19,7 @@
     "@mapsindoors/css": "0.0.3",
     "@mapsindoors/midt": "^10.2.9",
     "clean-css": "^4.2.3",
+    "gh-pages": "^2.2.0",
     "normalize.css": "^8.0.1"
   }
 }
