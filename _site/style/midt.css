@@ -1,0 +1,86 @@
+.font-family-sans-serif {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.font-family-raleway {
+  font-family: Raleway, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+
+.font-size-large {
+  font-size: 1.25rem;
+}
+
+.font-size-x-large {
+  font-size: 1.5rem;
+}
+
+.font-size-xxx-large {
+  font-size: 3rem;
+}
+
+.font-weight-medium {
+  font-weight: 400;
+}
+
+.font-leading-x-large {
+  line-height: 1.5rem;
+}
+
+.font-measure-large {
+  max-width: 34rem;
+}
+
+.color-white-base {
+  color: #fcfcfc;
+}
+
+.color-green-100 {
+  color: #112c1c;
+}
+
+.background-white-base {
+  background-color: #fcfcfc;
+}
+
+.background-green-90 {
+  background-color: #153d25;
+}
+
+.margin-top-medium {
+  margin-top: 16px;
+}
+
+.margin-top-xx-large {
+  margin-top: 40px;
+}
+
+.margin-right-medium {
+  margin-right: 16px;
+}
+
+.margin-bottom-x-large {
+  margin-bottom: 32px;
+}
+
+.margin-bottom-xx-large {
+  margin-bottom: 40px;
+}
+
+.margin-left-medium {
+  margin-left: 16px;
+}
+
+.margin-vertical-none {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.padding-horizontal-medium {
+  padding-left: 16px;
+  padding-right: 16px;
+}

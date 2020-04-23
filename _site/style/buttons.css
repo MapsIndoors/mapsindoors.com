@@ -1,0 +1,66 @@
+a.mi-button {
+  cursor: default;
+}
+
+.mi-button {
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
+}
+.mi-button:disabled {
+  opacity: 0.72;
+  cursor: not-allowed;
+}
+.mi-button--large {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 1.25rem;
+}
+.mi-button--base:not(:disabled):hover,
+.mi-button--danger:not(:disabled):hover {
+  background: linear-gradient(#ebeff5, #dee3ed);
+  border-color: #aeb9cb;
+}
+.mi-button--base:not(:disabled):active,
+.mi-button--danger:not(:disabled):active {
+  background: linear-gradient(#dee3ed, #ebeff5);
+}
+.mi-button--primary {
+  color: #ffffff;
+  border-color: #20693e;
+  background: linear-gradient(#3ba064, #2a844e);
+}
+.mi-button--primary:not(:disabled):hover {
+  background: linear-gradient(#2a844e, #20693e);
+}
+.mi-button--primary:not(:disabled):active {
+  background: linear-gradient(#20693e, #2a844e);
+}
+.mi-button--outline:not(:disabled):hover {
+  color: #1d5bbf;
+  border-color: #1d5bbf;
+  background-color: #eef4fc;
+}
+.mi-button--outline:not(:disabled):active {
+  color: #1d5bbf;
+  border-color: #1d5bbf;
+  background-color: #cfe0fc;
+}
+.mi-button--link:not(:disabled):hover {
+  color: #1d5bbf;
+  border-color: #1d5bbf;
+  background-color: #eef4fc;
+}
+.mi-button--link:not(:disabled):active {
+  color: #1d5bbf;
+  border-color: #1d5bbf;
+  background-color: #cfe0fc;
+}
