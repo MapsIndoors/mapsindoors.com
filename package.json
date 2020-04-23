@@ -8,7 +8,7 @@
     "watch": "eleventy --serve",
     "deploy": "gh-pages -d _site"
   },
-  "homepage": "/",
+  "homepage": "/mapsindoors.com",
   "keywords": [
     "mapsindoors"
   ],
